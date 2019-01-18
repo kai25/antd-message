@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bingqichen/antd-message.git"
+    "url": "git+https://github.com/kai25/antd-message.git"
   },
   "keywords": [
     "react",
@@ -19,12 +19,12 @@
     "antd",
     "ant-design"
   ],
-  "author": "BingqiChen",
+  "author": "kai25",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bingqichen/antd-message/issues"
+    "url": "https://github.com/kai25/antd-message/issues"
   },
-  "homepage": "https://github.com/bingqichen/antd-message#readme",
+  "homepage": "https://github.com/kai25/antd-messagee#readme",
   "dependencies": {
     "babel-runtime": "^6.23.0",
     "classnames": "^2.2.5",
