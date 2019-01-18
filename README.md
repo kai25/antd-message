@@ -1,5 +1,6 @@
 # antd-message
 Global message like ant-design
+
 Original repo: https://github.com/bingqichen/antd-message/
 
 ## Installation
