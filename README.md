@@ -1,7 +1,6 @@
 # antd-message
 Global message like ant-design
-
-高仿 ant-design 全局消息提示
+Original repo: https://github.com/bingqichen/antd-message/
 
 ## Installation
 Using npm:
@@ -15,9 +14,10 @@ $ yarn add antd-message
 
 ## Example
 ```javascript
-import Message from 'antd-message';
-window.message = Message;
-message.success(content, timeout);
+import { message } from 'antd-message';
+message.success('hello, world!');
+message.error(<span>Hello, World!</span>);
+message.success('hello, world!', 1000);  // 1000 - timeout of message
 ```
 ![Renderings](https://ooo.0o0.ooo/2017/03/20/58cfb9c34845f.png)
 

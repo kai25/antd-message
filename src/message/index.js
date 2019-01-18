@@ -23,20 +23,27 @@ const GlobalMessage = (props) => {
 
 GlobalMessage.propTypes = {
   type: PropTypes.string.isRequired,
-  content: PropTypes.string.isRequired
+  content: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.node,
+  ]).isRequired,
 };
 
-export default class Message {
-  static success(content, timeout) {
+
+export const message = {
+  success(content, timeout) {
     this.message('success', content, timeout);
-  }
-  static warn(content, timeout) {
+  },
+
+  warn(content, timeout) {
     this.message('warn', content, timeout);
-  }
-  static error(content, timeout) {
+  },
+
+  error(content, timeout) {
     this.message('error', content, timeout);
-  }
-  static message(type, content, timeout = 3000) {
+  },
+
+  show(type, content, timeout = 3000) {
     const container = document.createElement('div');
     container.setAttribute('class', 'component-message-wrap');
     container.setAttribute('style', `-webkit-animation-duration: ${timeout}ms`);
