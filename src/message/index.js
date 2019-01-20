@@ -32,15 +32,15 @@ GlobalMessage.propTypes = {
 
 export const message = {
   success(content, timeout) {
-    this.message('success', content, timeout);
+    this.show('success', content, timeout);
   },
 
   warn(content, timeout) {
-    this.message('warn', content, timeout);
+    this.show('warn', content, timeout);
   },
 
   error(content, timeout) {
-    this.message('error', content, timeout);
+    this.show('error', content, timeout);
   },
 
   show(type, content, timeout = 3000) {
