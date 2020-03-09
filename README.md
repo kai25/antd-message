@@ -2,6 +2,7 @@
 Global message like ant-design
 
 Original repo: https://github.com/bingqichen/antd-message/
+NPM - https://www.npmjs.com/package/antd-like-message
 
 ## Installation
 Using npm:
