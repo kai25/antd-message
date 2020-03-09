@@ -6,11 +6,11 @@ Original repo: https://github.com/bingqichen/antd-message/
 ## Installation
 Using npm:
 ```javascript
-$ npm install antd-message --save
+$ npm i antd-like-message --save
 ```
 Using yarn:
 ```javascript
-$ yarn add antd-message
+$ yarn add antd-like-message
 ```
 
 ## Example
